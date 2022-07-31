@@ -1,0 +1,63 @@
+#ex2 {
+
+	display: flex;
+}
+
+
+#semafor{
+	margin-top: 25px;
+	margin-left: 25px;
+    width:150px;
+    height:300px;
+	border: 2px solid black;
+    border-radius: 25px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: space-around;
+
+    background:lightgray;
+
+}
+
+
+#butoane{
+
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+margin-left: 50px;
+}
+
+
+
+.rosu, .galben, .verde {
+border: 1px solid black;
+width: 50%;
+height: 25%;
+border-radius: 50%
+
+
+}
+
+
+
+.rosu {
+	background:red
+}
+
+.galben {
+	background:orange
+}
+
+.verde{
+	background:green
+
+}
+
+.inactiv{
+
+	background-color: #ccc;
+}
+
+
