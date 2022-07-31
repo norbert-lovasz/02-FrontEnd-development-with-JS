@@ -1,0 +1,85 @@
+/* Exercitiu 1 */
+
+#input {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* width: 50%; */}
+	
+
+#output {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	/* width: 50%; */
+	border-bottom: solid gray thin;
+}
+
+
+
+
+
+
+
+/* Exercitiu 2 */
+
+#buttons{
+	margin-top: 25px;
+margin-left: 50px;
+float: left;
+display:flex;
+flex-direction:column;
+height:300px;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+
+}
+
+
+#rectangle{
+	margin-top: 25px;
+	margin-left: 25px;
+    width:150px;
+    height:300px;
+    background:lightgray;
+	border: 2px solid black;
+    border-radius: 25px;
+	display:flex;
+	flex-direction:column;
+	float: left;
+
+
+}
+
+
+
+
+[class*="lumina"]{
+	width:80px;
+    height:80px;
+	border: 2px solid black;
+    border-radius: 40px;
+	margin: auto
+	
+	
+}
+
+
+
+
+.rosu {
+	background:red
+}
+
+.galben {
+	background:orange
+}
+
+.verde{
+	background:green
+
+}
+
+
