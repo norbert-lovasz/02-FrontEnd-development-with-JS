@@ -1,0 +1,223 @@
+.wrapper {
+ 
+
+    max-height:fit-content;
+
+    text-align: center;
+    padding: 5px;
+    
+
+    
+}
+
+
+
+.topLine{
+
+
+   font-weight:bolder;
+   
+    
+    }
+ 
+  
+   
+
+.bottomLine{
+
+
+margin-top: 20%;
+
+
+}
+
+
+
+
+
+
+
+#firstline {
+    margin-top: 50px;
+    display: inline-flex;
+    
+}
+
+#secondline {
+    display: inline-flex;
+    margin-bottom: 50px;
+    
+}
+
+
+.masaLibera {
+
+    width: 16vw;
+    height: 8vw;
+    border: solid gray;
+    background-color: rgba(142, 204, 159, 0.486);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+
+    
+}
+
+
+
+.masaOcupata {
+
+    width: 16vw;
+    height: 8vw;
+    border: solid gray;
+    background-color: rgb(230, 180, 173);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+  
+      
+}
+
+
+.masaSelectata {
+
+    width: 16vw;
+    height: 8vw;
+    border: 6px dashed rgb(255, 234, 0) ;
+    background-color: orange;
+   
+    
+    text-align: center;
+    vertical-align: middle;
+   
+}
+
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.placeholder {
+
+    width: 10vw;
+    height: 8vw;
+    background-color: white;
+    cursor: auto;
+    
+   
+      } 
+
+
+
+
+#datePicker {
+    cursor: pointer;
+
+
+      }
+
+
+
+.redCircle {
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 173);
+  margin-right: 10px;
+  text-align: center;
+  padding: 7px;
+
+
+}
+
+.greenCircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgba(142, 204, 159, 0.486);
+    margin-right: 10px;
+    text-align: center;
+    padding: 7px;
+  
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .callToAction{
+        margin-left: 5vh;
+
+    }
+
+    .wrapper {
+        margin-left: 5vh;
+    }
+
+  
+
+   }
+
+
+
+ @media screen and (min-width: 768px) and (max-width: 992px){
+
+    .aside {
+     margin-left: 5vh;
+      
+ }
+
+
+ .bottomLine{
+
+
+    margin-top: 38%;
+    
+    
+    }
+
+
+
+
+    }
+
+@media screen  and (max-width: 992px) {
+    
+    .masaLibera {
+
+        width: 18vw;
+        height: 14vw;
+    
+     }
+
+     .masaOcupata {
+
+        width: 18vw;
+        height: 14vw;
+    
+     }
+
+ 
+}
+
+
+@media screen  and (max-width: 768px) {
+
+.bottomLine{
+
+
+    display: none;
+    
+    
+    }
+
+
+
+}

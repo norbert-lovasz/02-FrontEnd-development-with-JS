@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="myStyle.css" />
+		<script src="suplimentar.js"></script>
+		<title>Tema suplimentara</title>
+	</head>
+	<body>
+		<div id="continut"> 
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nesciunt dolor voluptas
+				illum dolorem voluptate, expedita eius quos pariatur quia ad dolorum ipsam voluptatibus
+				voluptates sunt aliquid consectetur, magni nobis, veritatis laborum esse possimus omnis
+				explicabo sapiente! Distinctio, omnis excepturi, consequatur porro soluta voluptate
+				ullam officiis dicta doloremque iusto blanditiis.
+			</p>
+			<p>
+				Odit perspiciatis reiciendis quaerat iusto culpa dolor, vitae earum sed molestias
+				aspernatur quidem saepe laudantium mollitia facere hic enim nemo accusamus? Placeat,
+				corporis incidunt maiores quo tempora rem impedit est ut voluptas molestias, corrupti
+				delectus, beatae nisi nobis nesciunt non dolore suscipit quod eum! Ipsa unde iste
+				quibusdam sit beatae?
+			</p>
+			<p>
+				Praesentium autem facilis, sed dolorum quam adipisci atque voluptatibus! Quis dolorem ea
+				amet facere. Rem, veniam. Officiis molestiae asperiores nam ex quae? Deleniti possimus
+				nihil quod quo, commodi, saepe, in fugiat blanditiis fugit sed suscipit odio ipsum
+				nobis. Similique odit dicta iure labore quas sequi quaerat perferendis vitae excepturi
+				sunt.
+			</p>
+			<p>
+				Facere voluptatibus mollitia ea nulla itaque est non consequatur cupiditate, deserunt
+				eligendi a! Maxime aut repudiandae consequatur totam repellat repellendus enim earum
+				dolores soluta sapiente! Odit velit eos expedita exercitationem fugit illo, corporis,
+				vel voluptates, aspernatur enim dolor error possimus rem vitae harum praesentium dolorum
+				ullam. Cupiditate fugiat eum beatae!
+			</p>
+
+			<form id="data" >
+				
+				<input type="button" value="Add a color into the list" onclick="addNewColor()" />
+
+				<input type="text" placeholder="Color name in english" name="addColor"  id="addColor"  />
+
+				<select id="colors" name="colors" onchange="changeColor()"></select>
+                      
+			
+			</form>
+		</div>
+
+		<footer>
+			<p>Tema suplimentara</p>
+		</footer>
+
+		<script>
+		
+		
+		   populareDropList();
+
+		   document.getElementById("colors").addEventListener("select", changeColor());
+
+		
+		
+
+		</script>
+	</body>
+</html>
