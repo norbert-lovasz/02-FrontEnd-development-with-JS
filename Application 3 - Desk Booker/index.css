@@ -1,46 +1,29 @@
 .wrapper {
- 
 
     max-height:fit-content;
-
     text-align: center;
     padding: 5px;
     
-
-    
 }
-
 
 
 .topLine{
-
-
    font-weight:bolder;
-   
-    
+   font-size: larger;
+   font-weight: 600;
     }
- 
-  
-   
 
 .bottomLine{
-
-
-margin-top: 20%;
-
+margin-bottom: 18%;
+font-size: larger;
+font-weight: 600;
 
 }
-
-
-
-
-
-
 
 #firstline {
     margin-top: 50px;
     display: inline-flex;
-    
+   
 }
 
 #secondline {
@@ -93,6 +76,8 @@ margin-top: 20%;
 }
 
 
+
+
 span {
     display: inline-block;
     vertical-align: middle;
@@ -104,20 +89,32 @@ span {
     height: 8vw;
     background-color: white;
     cursor: auto;
-    
-   
+     
       } 
 
+.hidden {
+display: none;
+visibility: hidden;
 
+}
 
 
 #datePicker {
     cursor: pointer;
-
-
       }
 
 
+.logInSuccesfull {
+    text-align: center; 
+    background-color: green;
+    color: antiquewhite;
+}
+
+.logInError {
+    text-align: center; 
+    background-color: red;
+
+}
 
 .redCircle {
 
@@ -132,6 +129,7 @@ span {
 
 }
 
+
 .greenCircle{
     width: 40px;
     height: 40px;
@@ -140,35 +138,53 @@ span {
     margin-right: 10px;
     text-align: center;
     padding: 7px;
+    
   
+}
+
+#tableModalUser{
+text-align: center;}
 
 
+.greenRectangle {
+    width: 40px;
+    height: 40px;
+    border-radius: 5%;
+    color:  rgba(0, 70, 20, 0.486);
+    margin-right: 10px;
+    text-align: center;
+    padding: 7px;
+    font-size: x-large;
+    font-weight: 600;
 
 }
 
+.redRectangle {
+    width: 40px;
+  height: 40px;
+  border-radius: 5%;
+  color: rgb(102, 47, 39);
+  margin-right: 10px;
+  text-align: center;
+  padding: 7px;
+  font-size: x-large;
+  font-weight: 600;
 
-
-
+}
 
 @media screen and (min-width: 768px) {
 
     .callToAction{
         margin-left: 5vh;
-
     }
 
     .wrapper {
         margin-left: 5vh;
     }
-
-  
-
    }
 
 
-
  @media screen and (min-width: 768px) and (max-width: 992px){
-
     .aside {
      margin-left: 5vh;
       
@@ -176,17 +192,11 @@ span {
 
 
  .bottomLine{
-
-
-    margin-top: 38%;
-    
+    margin-bottom: 38%; 
     
     }
-
-
-
-
     }
+
 
 @media screen  and (max-width: 992px) {
     
@@ -211,13 +221,8 @@ span {
 @media screen  and (max-width: 768px) {
 
 .bottomLine{
-
-
     display: none;
     
-    
+  
     }
-
-
-
 }
